@@ -1,97 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grouping Tags</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            background-color: antiquewhite;
-            margin: 0px;
-
-        }
-
-        header {
-            background-color: aqua;
-            padding: 10px;
-            margin: 10px;
-        }
-
-        nav {
-            background-color: rgb(129, 3, 3);
-            padding: 3px;
-            background-color: 5px 5px 5px rgba(0, 0, 0, 0.651);
-        }
-
-        nav>a {
-            text-decoration: none;
-            color: rgba(197, 127, 255, 0.5);
-            font-weight: bold;
-            margin-right: 30px;
-
-        }
-        article{
-            background-color: lightgrey;
-            padding: 0px;
-        }
-
-        nav>a:hover {
-            text-decoration: underline;
-            color: chartreuse;
-        }
-
-        main {
-            background-color: white;
-            padding: 10px;
-            margin: 10px; 
-            border-radius: 10px 20px 30px 40px;
-        }
-
-        footer {
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 0px;
-            margin: 4px;
-        }
-        footer > p {
-            margin: 0px;
-        }
-    </style>
+    <title>Teste de Imagem de fundo</title>
+<style>
+    body {
+        background-image: url(Midias/wallpaper001.jpg);
+    }
+    div.quadrado {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 30px;
+        background-color: lightgray;
+        width: 300px;
+        height: 300px;
+    }
+    #q1 {
+background-color: aqua;
+    }
+    #q2 {
+background-image: linear-gradient(to bottom, yellow, red )
+    }
+    #q3 {
+background-image: url(Midias/pattern003.png);
+    }
+</style>
+    
 </head>
-
 <body>
-    <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <a href="link">Link</a>
-            <a href="link">Link</a>
-            <a href="link">Link</a>
-            <a href="link">Link</a>
-            <a href="link">Link</a>
-        </nav>
-    </header>
-    <main>
-        <section id="assuntos">
-            <p>Esportes Politicas Tecnologia</p>
-        </section>
-        <section id="noticias">
-            <article>
-                <h2>Noticias sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam dignissimos atque asperiores
-                    aspernatur in corrupti ipsa hic, blanditiis cupiditate ad saepe laboriosam facilis harum, laudantium
-                    voluptatum perferendis, officia eveniet soluta.</p>
-                <aside>
-                    <p>Artigo escrito por José da silva</p>
-                </aside>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Desenvolvido pelo Cursoemvideo</p>
-    </footer>
-</body>
+    <div class="quadrado" id="q1">
 
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
 </html>
